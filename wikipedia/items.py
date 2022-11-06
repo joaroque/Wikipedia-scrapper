@@ -14,6 +14,7 @@ class WikipediaItem(scrapy.Item):
     title = scrapy.Field()
     description = scrapy.Field()
     image_url = scrapy.Field()
+    image = scrapy.Field()
 
 
 class WikipediaItemLoader(ItemLoader):
